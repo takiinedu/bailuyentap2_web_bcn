@@ -53,6 +53,7 @@ form .wrapper {
 }
 
 .signin__input input {
+    padding: 0 16px;
     width: 100%;
     box-sizing: border-box;
     height: 41.31px;
@@ -142,7 +143,7 @@ form .wrapper {
     border-radius: 12px;
     font-family: 'Poppins';
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 14px;
     line-height: 21px;
     text-align: center;
@@ -172,4 +173,7 @@ form .wrapper {
     margin-right: 2px;
     color: #595959;
     text-align: center;
+}
+.signin__section-remember{
+    margin-left: 6px;
 }
