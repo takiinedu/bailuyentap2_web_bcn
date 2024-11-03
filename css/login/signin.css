@@ -51,7 +51,7 @@ form .wrapper {
     text-align: left;
     letter-spacing: 0.03em;
     color: #181818;
-    margin-bottom: 9px;
+    margin-bottom: 15px;
 }
 
 .signin__input input {
@@ -65,7 +65,7 @@ form .wrapper {
 }
 
 .signin__input--password {
-    margin-top: 24px;
+    margin-top: 20px;
 }
 
 .signin__banner-img {
