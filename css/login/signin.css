@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    min-width: 1080px;
+}
+
+form,
+.signin__banner-img {
+    width: 50%;
+}
+
+form {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+form .wrapper {
+    width: 55%;
+    margin: auto;
+}
+@media screen and (max-width: 1300px) {
+    form .wrapper {
+        width: calc(100% - 108 * 2px);
+    }
+    
+}
+.signin__input {
+    width: 100%;
+}
+
+.signin__input * {
+    display: block;
+}
+
+.signin__input-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: left;
+    letter-spacing: 0.03em;
+    color: #181818;
+    margin-bottom: 9px;
+}
+
+.signin__input input {
+    width: 100%;
+    box-sizing: border-box;
+    height: 41.31px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.1));
+    border-radius: 12px;
+}
+
+.signin__input--password {
+    margin-top: 24px;
+}
+
+.signin__banner-img {
+    height: 100%;
+}
+
+.signin__title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 51px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #030303;
+}
+
+.signin__comment {
+    margin-block: 0px 39px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #636364;
+}
+
+.signin__section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 23px;
+}
+
+.signin__section p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #181818;
+}
+
+.signin__section-left {
+    display: flex;
+}
+
+.signin__button {
+    width: 100%;
+    height: 41.31px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    border: none;
+    background: #EA454C;
+    box-shadow: 0px 4px 10px rgba(233, 68, 75, 0.25);
+    border-radius: 12px;
+    margin-top: 12px;
+}
+
+.signin__google {
+    margin-top: 11.36px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 41.31px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.25));
+    border-radius: 12px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signin__signup {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 15px;
+    letter-spacing: 0.03em;
+    color: #EA454C;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.signin__signup::before {
+    content: "Don’t have an account?";
+    margin-right: 2px;
+    color: #595959;
+    text-align: center;
+}
