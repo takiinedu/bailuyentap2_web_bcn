@@ -30,7 +30,9 @@ form .wrapper {
     form .wrapper {
         width: calc(100% - 108 * 2px);
     }
-    
+    .signin__title{
+        font-size: 34px;
+    }
 }
 .signin__input {
     width: 100%;
@@ -74,7 +76,7 @@ form .wrapper {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
-    font-size: 34px;
+    font-size: 40px;
     line-height: 51px;
     text-align: center;
     letter-spacing: 0.03em;
